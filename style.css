@@ -1,0 +1,46 @@
+/* Selecteur de Type */
+header {
+    background-color: aqua;
+}
+
+/* Selecteur de Type */
+main {
+    background-color: bisque;
+}
+
+/* Selecteur de Type */
+footer {
+    background-color: brown;
+}
+
+/* Selecteur de Classe */
+.firstdiv {
+    color: blueviolet
+}
+
+/* Selecteur D'identifiant */
+#seconddiv {
+    color: burlywood
+}
+
+main h1:first-child {
+    background-color: red
+}
+
+/* Cherche dans l'attribut : HEADER  et ensuite dans le premier fils  */
+header div:first-child {
+    color: red
+}
+
+
+/* Celui ci indique Tout les H1 qui contienne un P devra être de la couleur Rouge */
+h1~p {
+    color: red;
+    text-align: center
+}
+
+
+
+div:hover {
+    background-color: black;
+}
